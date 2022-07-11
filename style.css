@@ -3,17 +3,18 @@
     padding: 0;
     margin: 0;
 }
-
+/* applies background color to whole body section of code */
 body {
     background-color: #d9dcd6;
 }
-
 
 .body {
     font-family: sans-serif;
     margin: 100px;
   }
 
+  /* .header Tag used to manipulate the top portion of the page */
+  /* Sets background color and controls for Header of page */
 .header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #154f6b;
@@ -32,6 +33,7 @@ body {
     margin-right: auto;
 }
 
+/* sub tag of .seo used to change the 3 letters in Horiseon to display as a different color for its significance as an abreviation for Search Engine Optimization */
 .header h2 .seo {
     color: #d9dcd6e7;
 }
@@ -50,8 +52,6 @@ body {
     position: relative;
     justify-content: space-between;
     margin-top: 15px;
-    
-    white-space: normal;
 }
 
 .header div ul li {
@@ -59,11 +59,10 @@ body {
     margin-left: auto;
     margin-bottom: 100px;
     position: relative;
-    white-space: normal;
 }
 
+/* hero tag is used to implement a photo spacing between the main header and the body of the page, insertion of a background image and position control with the  */
 .hero {
-    height: 1000px;
     width: 100%;
     height: 1600px;
     margin-bottom: 25px;
@@ -72,6 +71,7 @@ body {
     background-position: center;
 }
 
+/* tag a is used to adress specifically the UL Li used on the top right of the page, giving it control and appealing spacing for the user */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -79,6 +79,7 @@ a {
     margin-right: 50px;
 }
 
+/* tag p is used to achieve edits for all paragraph tags used in the html, while some individual elements have varying context due to the specific nature of the code */
 p {
     overflow-wrap: break-word; 
     text-align: left;
@@ -91,18 +92,22 @@ p {
     position: relative;
 }
 
+/* float-left is used to address the top and bottom section in which follow similar alignment criteria 
+as well as a float left for control of the space */
 .float-left {
     float: left; 
     margin-left: 20px;
     width: 300PX;
 }
 
+/* float-right provides the 3 set of alignment criteria for the middle section giving a float right for the variable */
 .float-right {
     float: right;
     margin-left: 20px;
     width: 300PX;
 }
-
+/* Content header is used for the (3) main segment blocks */
+/* use of margin-right & -left to allow the spacing of the items to fit within the entire page without overlap */
 .content {
     width: 70%;
     display: inline-block;
@@ -116,6 +121,8 @@ p {
     overflow-wrap: break-word;
 }
 
+/* 1st subgroup of "Content", applies to whole segment of .search-engine-optimization  */
+/* provided heigh of the object, padding, and margin for control of the box with regard to whole site */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -124,6 +131,13 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+}
+
+.search-engine-optimization img {
+    max-height: 300px;
+    height: 280px;
+    width: 400px;
+    margin: 10px;
 }
 
 .search-engine-optimization h2 {
@@ -142,13 +156,7 @@ p {
     overflow-wrap: break-word;
 }
 
-.search-engine-optimization img {
-    max-height: 300px;
-    height: 280px;
-    width: 400px;
-    margin: 10px;
-}
-
+/* .online-reputation-management used to specific middle section of main segments. providing controls specific to .online-reputation-management past the base code posed above for the entirety of the image, H2, & P */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -158,18 +166,22 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management h2 {
-    inline-size: 500px;
-    overflow-wrap: break-word;
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
 .online-reputation-management img {
     max-height: 300px;
     height: 280px;
     width: 450px;
     margin: 10px;
+}
+
+.online-reputation-management h2 {
+    inline-size: 500px;
+    overflow-wrap: break-word;
+    margin-bottom: 20px;
+    font-size: 42px;
+}
+
+.online-reputation-management p {
+    margin-right: 45%;
 }
 
 .social-media-marketing {
@@ -204,36 +216,30 @@ p {
     overflow-wrap: break-word;
 }
 
+/* .benefits tag utilizes various commands to control the segment and hold the block with (3) elements to the right of the "Content" tag */
 .benefits {
     margin-right: 30px;
     padding: 40px;
     clear: both;
     float: right;
     width: 25%;
-    height: 1300px;
+    height: 1275px;
     font-family: Georgia, 'Times New Roman', Times, serif ,sans-serif,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
     background-color: #2589bd;
     align-items: center;
 }
 
+/* tags applied specifically to the benefits paragraphs for control within the block */
 .benefits p {
-    word-spacing: 2px;
+    word-spacing: 1px;
     width: 360px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
+/* .benefits-lead is targetting 1 segment of code within the benefits segment
+   providing color and margin and padding for the bottom segment to control the spacing between sections. */
 .benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-    padding-bottom: 20px;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-    padding-bottom: 20px;
-}
-
-.benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
     padding-bottom: 20px;
@@ -245,24 +251,25 @@ p {
     text-align: center;
 }
 
-.benefit-brand h3 {
-    font-size: 23px;
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    font-size: 23px;
-    margin-bottom: 10px;
-    text-align: center;
-}
-
+/* Use of max-width and height/width variables to keep benefits block consistent with its provided space */
 .benefit-lead img {
     display: block;
     width: 220px;
     height: 200px;
     margin: 10px auto;
     max-width: 250px;
+}
+
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+
+.benefit-brand h3 {
+    font-size: 23px;
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 .benefit-brand img {
@@ -273,6 +280,19 @@ p {
     max-width: 250px;
 }
 
+/* last section of the benefits class / lowest on the right segment. showing control for the -cost segments all together then for h3 & the image */
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+
+.benefit-cost h3 {
+    font-size: 23px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
 .benefit-cost img {
     display: block;
     width: 220px;
@@ -280,7 +300,8 @@ p {
     margin: 10px auto;
     max-width: 250px;
 }
-
+/* commented out the footer due to the lack of presence in the display example.
+   used display: none; to acheive hidden variables without removing HTML code */
 .footer {
     padding: 30px;
     clear: both;
