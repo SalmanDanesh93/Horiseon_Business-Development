@@ -1,0 +1,295 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+
+.body {
+    font-family: sans-serif;
+    margin: 100px;
+  }
+
+.header {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #154f6b;
+    color: #fffffff1;
+    position: relative;
+}
+
+.header h2 {
+    font-family: "Lucida Console", Monaco, monospace;
+    display: flex;
+    font-size: 60px;
+    flex-wrap: wrap;
+    line-height: 120px;
+    position: relative;
+    padding-left: 30px;
+    margin-right: auto;
+}
+
+.header h2 .seo {
+    color: #d9dcd6e7;
+}
+
+.header div {
+    padding-top: 30px;
+    margin-right: 10px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    position: absolute; top: 0; right: 0;
+}
+
+.header div ul {
+    list-style-type: none;
+    position: relative;
+    justify-content: space-between;
+    margin-top: 15px;
+    
+    white-space: normal;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: auto;
+    margin-bottom: 100px;
+    position: relative;
+    white-space: normal;
+}
+
+.hero {
+    height: 1000px;
+    width: 100%;
+    height: 1600px;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 25px;
+    margin-right: 50px;
+}
+
+p {
+    overflow-wrap: break-word; 
+    text-align: left;
+    font-size: 21px;
+    margin: 10px;
+    margin-right: 150px;
+    word-spacing: 2px;
+    font-style: normal;
+    font-family: Lucida, Sans Unicode;
+    position: relative;
+}
+
+.float-left {
+    float: left; 
+    margin-left: 20px;
+    width: 300PX;
+}
+
+.float-right {
+    float: right;
+    margin-left: 20px;
+    width: 300PX;
+}
+
+.content {
+    width: 70%;
+    display: inline-block;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.content h2 {
+    position: relative;
+    justify-content: space-between; 
+    overflow-wrap: break-word;
+}
+
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 400px;
+    font-stretch: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.search-engine-optimization h2 {
+    overflow-wrap: break-word;
+    margin-left: 450px;
+    margin-bottom: 20px;
+    font-size: 42px;
+    width: 800px;
+    max-width: 550px;
+}
+
+.search-engine-optimization p {
+    margin-left: 450px;
+    inline-size: 900px;
+    max-width: fit-content;
+    overflow-wrap: break-word;
+}
+
+.search-engine-optimization img {
+    max-height: 300px;
+    height: 280px;
+    width: 400px;
+    margin: 10px;
+}
+
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 400px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.online-reputation-management h2 {
+    inline-size: 500px;
+    overflow-wrap: break-word;
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.online-reputation-management img {
+    max-height: 300px;
+    height: 280px;
+    width: 450px;
+    margin: 10px;
+}
+
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 400px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing img {
+    max-height: 300px;
+    height: 280px;
+    width: 400px;
+    margin: 10px;
+}
+
+.social-media-marketing h2 {
+    overflow-wrap: break-word;
+    margin-left: 450px;
+    margin-bottom: 20px;
+    font-size: 42px;
+    width: 800px;
+    max-width: 550px;
+}
+
+.social-media-marketing p {
+    margin-left: 450px;
+    inline-size: 900px;
+    max-width: fit-content;
+    overflow-wrap: break-word;
+}
+
+.benefits {
+    margin-right: 30px;
+    padding: 40px;
+    clear: both;
+    float: right;
+    width: 25%;
+    height: 1300px;
+    font-family: Georgia, 'Times New Roman', Times, serif ,sans-serif,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+    background-color: #2589bd;
+    align-items: center;
+}
+
+.benefits p {
+    word-spacing: 2px;
+    width: 360px;
+}
+
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+
+.benefit-lead h3 {
+    font-size: 23px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-brand h3 {
+    font-size: 23px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-cost h3 {
+    font-size: 23px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-lead img {
+    display: block;
+    width: 220px;
+    height: 200px;
+    margin: 10px auto;
+    max-width: 250px;
+}
+
+.benefit-brand img {
+    display: block;
+    width: 220px;
+    height: 200px;
+    margin: 10px auto;
+    max-width: 250px;
+}
+
+.benefit-cost img {
+    display: block;
+    width: 220px;
+    height: 200px;
+    margin: 10px auto;
+    max-width: 250px;
+}
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    display: none;
+}
+
+.footer h2 {
+    font-size: 20px;
+    display: none;
+}
