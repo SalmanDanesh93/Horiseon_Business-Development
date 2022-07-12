@@ -180,6 +180,7 @@ as well as a float left for control of the space */
     font-size: 42px;
 }
 
+/* setting margin of paragraph to right to control */
 .online-reputation-management p {
     margin-right: 45%;
 }
@@ -193,6 +194,7 @@ as well as a float left for control of the space */
     color: #ffffff;
 }
 
+/* max heigh set and standard height and width with an overall margin of 10px */
 .social-media-marketing img {
     max-height: 300px;
     height: 280px;
@@ -209,6 +211,7 @@ as well as a float left for control of the space */
     max-width: 550px;
 }
 
+/* setting margin on the left, size of the text with inline-size, max width to fit content and break-word overflow-wrap for control */
 .social-media-marketing p {
     margin-left: 450px;
     inline-size: 900px;
@@ -245,6 +248,7 @@ as well as a float left for control of the space */
     padding-bottom: 20px;
 }
 
+/* setting font size, margin for the bottom, & aligning text to center */
 .benefit-lead h3 {
     font-size: 23px;
     margin-bottom: 10px;
@@ -252,30 +256,30 @@ as well as a float left for control of the space */
 }
 
 /* Use of max-width and height/width variables to keep benefits block consistent with its provided space */
+
 .benefit-lead img {
     display: block;
-    width: 220px;
-    height: 200px;
     margin: 10px auto;
     max-width: 250px;
 }
 
+/* setting color of tag, provides padding for bottom and a margin for bottom */
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
     padding-bottom: 20px;
 }
 
+/* setting font size, margin for the bottom, & aligning text to center */
 .benefit-brand h3 {
     font-size: 23px;
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* setting an automatic margin on the image to keep it from overlapping. Set max-width to restrict if page is zoomed */
 .benefit-brand img {
     display: block;
-    width: 220px;
-    height: 200px;
     margin: 10px auto;
     max-width: 250px;
 }
@@ -287,16 +291,16 @@ as well as a float left for control of the space */
     padding-bottom: 20px;
 }
 
+/* setting font size, margin for the bottom, & aligning text to center */
 .benefit-cost h3 {
     font-size: 23px;
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* setting an automatic margin on the image to keep it from overlapping. Set max-width to restrict if page is zoomed */
 .benefit-cost img {
     display: block;
-    width: 220px;
-    height: 200px;
     margin: 10px auto;
     max-width: 250px;
 }
@@ -307,10 +311,5 @@ as well as a float left for control of the space */
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    display: none;
-}
-
-.footer h2 {
-    font-size: 20px;
     display: none;
 }
